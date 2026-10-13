@@ -9,6 +9,7 @@ time = info[3]
 price = float(info[4])
 
 print("Поезд:", train_number)
+#print("Маршрут:", departure_city, "-", arrival_city)
 print(f"Маршрут: {departure_city} - {arrival_city}")
 print("Отправление:", time)
 print(f"Цена: {price:.2f} руб")
